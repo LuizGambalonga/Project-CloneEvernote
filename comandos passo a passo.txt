@@ -1,0 +1,7 @@
+1- npm install express-generator -g (adicionando o express com algumas estruturas já feitas)
+2- npx express --view=no-view javascript_note_api (Cria estrutura do Projeto)
+2.1- npm install
+3- Subir Projeto "npm start"
+4- npm i nodemon --save (Refresh o servidor automaticamente).
+5- npm i mongoose --save (Mapeamento das Models para o MongoDB)
+6- npm i b-crypt --save/ npm install bcryptjs (Biblioteca responsavel por salvar os password em HASH
