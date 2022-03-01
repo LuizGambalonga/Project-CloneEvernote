@@ -5,3 +5,5 @@
 4- npm i nodemon --save (Refresh o servidor automaticamente).
 5- npm i mongoose --save (Mapeamento das Models para o MongoDB)
 6- npm i b-crypt --save/ npm install bcryptjs (Biblioteca responsavel por salvar os password em HASH
+7- Biblioteca JWT npm i jsonwebtoken --save (autenticação.)
+7.1- Variavel de ambiente para guardar o valor da autenticação (npm i dotenv --save)
