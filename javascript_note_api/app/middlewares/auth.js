@@ -2,12 +2,12 @@ require('dotenv').config();
 const secret = process.env.JWT_TOKEN;
 
 const jwt = require('jsonwebtoken');
-const { response } = require('../../app');
+// const { response } = require('../../app');
 
 const User = require('../models/user');
 
 const WithAut = (req,res, next)=>{
-    const token = rew.headers['x-acess-token'];
+    let token = req.headers['x-acess-token'];
     if(!token)
       res.status(401).json({error: 'Chamada não autorizada sem token'});
       else{
