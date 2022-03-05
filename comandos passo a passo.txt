@@ -7,3 +7,4 @@
 6- npm i b-crypt --save/ npm install bcryptjs (Biblioteca responsavel por salvar os password em HASH
 7- Biblioteca JWT npm i jsonwebtoken --save (autenticação.)
 7.1- Variavel de ambiente para guardar o valor da autenticação (npm i dotenv --save)
+8- Liberar a comunicação do Front com o Backend (CORS) npm i cors --save
