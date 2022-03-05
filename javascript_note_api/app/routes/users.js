@@ -39,6 +39,15 @@ router.post('/login', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: "Internal Error, Try Again" });
   }
+})
 
+// pegar todos os usuarios
+router.get('/', async (req, res) => {
+  try {
+    let user = await User.find({});
+    res.json(user);
+  } catch (error) {
+    res.status(500).json({ error: "Ocorreu algum problema ao recuperar todos os usuarios" });
+  }
 })
 module.exports = router;
