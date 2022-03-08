@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 
 const WithAut = (req,res, next)=>{
-    let token = req.headers['x-acess-token'];
+    let token = req.headers['x-access-token'];
     if(!token)
       res.status(401).json({error: 'Chamada não autorizada sem token'});
       else{
